@@ -1,0 +1,7 @@
+{
+  "java.project.sourcePaths": [
+    "BinarySearch/01_SimpleBinarySearch",
+    "BinarySearch/02_ReverseBinarySearch",
+    "BinarySearch\\03_OrderAgnosticBS"
+  ]
+}
