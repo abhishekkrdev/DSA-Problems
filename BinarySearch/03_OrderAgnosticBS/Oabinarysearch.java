@@ -1,6 +1,5 @@
-// Below Program is an implementation of  Binary Search Algorithm where the ordering is descending
-// Edge case is [1,2,3,4,5,6] and we need to search 0, then at last start and end will point at index 0
-// and end will become -1 which will break the loop
+// Below Program is an implementation of  Binary Search Algorithm where the ordering is not known
+
 
 public class Oabinarysearch {
   public static void main(String[] args){

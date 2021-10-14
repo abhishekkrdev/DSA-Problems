@@ -1,6 +1,6 @@
 // Below Program is an implementation of  Binary Search Algorithm where the ordering is descending
-// Edge case is [1,2,3,4,5,6] and we need to search 0, then at last start and end will point at index 0
-// and end will become -1 which will break the loop
+// Edge case is [7,6,5,4,3,2,1] and we need to search 0, then at last start and end will point at index (length-1).
+// and start will become greater than end which will break the loop
 
 public class DescBS {
   public static void main(String[] args){
