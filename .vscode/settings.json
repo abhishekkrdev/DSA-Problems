@@ -1,10 +1,13 @@
 {
   "java.project.sourcePaths": [
-    "BinarySearch/01_SimpleBinarySearch",
-    "BinarySearch/02_ReverseBinarySearch",
+    "BinarySearch\\01_SimpleBinarySearch",
+    "BinarySearch\\02_ReverseBinarySearch",
     "BinarySearch\\03_OrderAgnosticBS",
     "BinarySearch\\04_FirstOccurenceNumber",
     "BinarySearch\\05_LastOccurenceNumber",
-    "BinarySearch\\06_FirstLastEleBS"
+    "BinarySearch\\06_FirstLastEleBS",
+    "BinarySearch\\07_CountOfElement",
+    "Recursion\\01_Fibonacci",
+    "Recursion\\02_BinarySearch"
   ]
 }
