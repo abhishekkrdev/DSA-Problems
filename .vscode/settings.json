@@ -10,6 +10,8 @@
     "Recursion\\01_Fibonacci",
     "Recursion\\02_BinarySearch",
     "BinarySearch\\08_FloorOfElement",
-    "BinarySearch\\09_CeilOfElement"
+    "BinarySearch\\09_CeilOfElement",
+    "Sorting\\01_BubbleSort",
+    "Sorting\\02_SelectionSort"
   ]
 }
