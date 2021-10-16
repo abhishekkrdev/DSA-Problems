@@ -1,16 +1,19 @@
 public class CeilBS {
   public static void main(String[] args){
-    int[] arr = {1,2,3,4,5,7,9,11,13,15};
+    int[] arr = {15};
 
-    int result = findCeil(arr,14);
-    System.out.println(arr[result]);
-
-
+    int result = findCeil(arr,16);
+    System.out.println(result);
   }
 
   private static int findCeil(int[] arr,int target){
     int start = 0 ;
     int end = arr.length - 1;
+
+    if( arr.length == 0 || arr[end]<target){
+      // No Greater Element Is Found
+      return -1;
+    }
 
     while(start<=end){
       int mid = start + (end - start)/2;

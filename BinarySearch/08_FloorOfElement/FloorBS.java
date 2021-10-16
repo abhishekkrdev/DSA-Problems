@@ -1,14 +1,20 @@
 public class FloorBS {
   public static void main(String[] args){
-    int[] arr = {1,2,3,4,5,7,9,11,13,15};
+    int[] arr = {15};
 
     int result = findFloor(arr,14);
-    System.out.println(arr[result]);
+    System.out.println(result);
   }
 
   private static int findFloor(int[] arr,int target){
     int start = 0 ;
     int end = arr.length - 1;
+
+    
+    if(arr[0]>target || arr.length == 0){
+      // No Less Element Is Found
+      return -1;
+    }
 
     while(start<=end){
       int mid = start + (end - start)/2;
