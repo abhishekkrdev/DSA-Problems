@@ -8,6 +8,8 @@
     "BinarySearch\\06_FirstLastEleBS",
     "BinarySearch\\07_CountOfElement",
     "Recursion\\01_Fibonacci",
-    "Recursion\\02_BinarySearch"
+    "Recursion\\02_BinarySearch",
+    "BinarySearch\\08_FloorOfElement",
+    "BinarySearch\\09_CeilOfElement"
   ]
 }
