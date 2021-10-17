@@ -12,6 +12,8 @@
     "BinarySearch\\08_FloorOfElement",
     "BinarySearch\\09_CeilOfElement",
     "Sorting\\01_BubbleSort",
-    "Sorting\\02_SelectionSort"
+    "Sorting\\02_SelectionSort",
+    "Sorting\\03_InsertionSort",
+    "Sorting\\04_CycleSort"
   ]
 }
