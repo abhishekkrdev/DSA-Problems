@@ -15,7 +15,7 @@ public class MissingNumberAll {
 
     while(i<arr.length){
         int correctIndex = arr[i] - 1;
-        if(arr[i] - arr[correctIndex] != 0){
+        if(arr[i] != arr[correctIndex]){
             int temp = arr[i];
             arr[i] = arr[correctIndex];
             arr[correctIndex] = temp;

@@ -1,4 +1,5 @@
 // Below is an implementation of cyclic sort.
+// No Duplicate Number are found.
 // Time Complexity -> O(n)
 
 import java.util.Arrays;
@@ -15,7 +16,7 @@ public class CycleSort {
       int i = 0;
       while(i<arr.length){
         int correctIndex = arr[i] - 1;
-        if(correctIndex!=i){
+        if(arr[i]!=arr[correctIndex]){
           int temp = arr[i];
           arr[i] = arr[correctIndex];
           arr[correctIndex] = temp;

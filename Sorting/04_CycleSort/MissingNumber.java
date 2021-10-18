@@ -10,11 +10,11 @@ public class MissingNumber {
   private static int missingNumber(int[] arr){
     int i = 0;
     while(i<arr.length){
-      if(arr[i]!=i && arr[i]!=arr.length) {
-        int correctIndex = arr[i];
+      int correctIndex = arr[i];
+      if(arr[i]<arr.length && arr[i]!= arr[correctIndex] ){
         int temp = arr[i];
         arr[i] = arr[correctIndex];
-        arr[correctIndex]=temp;
+        arr[correctIndex] = temp;
       }else{
         i++;
       }

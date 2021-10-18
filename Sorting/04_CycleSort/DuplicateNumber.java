@@ -11,22 +11,21 @@ public class DuplicateNumber {
     int i = 0;
     int result = -1;
     while(i<arr.length){
-      int correctIndex = arr[i] - 1;
-      if(arr[i]!=arr[correctIndex] ) {
+    
+      if(arr[i]!=i+1 ) {
+        int correctIndex = arr[i] - 1;
+        if(arr[correctIndex]!= arr[i]){
         int temp = arr[i];
         arr[i] = arr[correctIndex];
         arr[correctIndex]=temp;
+        }else{
+          return arr[i];
+        }
       }else{
         i++;
       }
     }
-    for(int j=0;j<arr.length;j++){
-      if(arr[j]!=j){
-        result = arr[j];
-      }
-    }
-   return result;
-
+       return result;
   }
   
 }
