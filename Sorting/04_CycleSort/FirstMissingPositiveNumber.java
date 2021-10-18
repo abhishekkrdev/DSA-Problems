@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/first-missing-positive/
+// Ignore Negative And Numbers Greater than length of the array
+
 public class FirstMissingPositiveNumber {
   public static void main(String[] args){
     int[] arr = {7,8,9,11,12};
