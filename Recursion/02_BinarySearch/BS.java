@@ -1,6 +1,9 @@
 public class BS {
   public static void main(String[] args){
-
+    int[] arr = {1,2,3,4,5};
+    int s = 0;
+    int e = arr.length - 1;
+    search(arr, 5, s, e);
   }
 
   static int search(int[] arr,int target,int s,int e){

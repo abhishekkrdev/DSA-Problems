@@ -14,6 +14,9 @@
     "Sorting\\01_BubbleSort",
     "Sorting\\02_SelectionSort",
     "Sorting\\03_InsertionSort",
-    "Sorting\\04_CycleSort"
+    "Sorting\\04_CycleSort",
+    "Recursion\\00_EasyQuestions",
+    "Maths\\Bitwise\\01_OddEven",
+    "Maths\\Bitwise\\02_UniqueNumber"
   ]
 }
